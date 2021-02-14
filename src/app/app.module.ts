@@ -7,6 +7,7 @@ import { MainPageComponent } from './main-page/main-page.component';
 import { AddItemFormComponent } from './add-item-form/add-item-form.component';
 import { BudgetItemListComponent } from './budget-item-list/budget-item-list.component';
 import { BudgetItemCardComponent } from './budget-item-list/budget-item-card/budget-item-card.component';
+import { EditItemModelComponent } from './edit-item-model/edit-item-model.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { BudgetItemCardComponent } from './budget-item-list/budget-item-card/bud
     AddItemFormComponent,
     BudgetItemListComponent,
     BudgetItemCardComponent,
+    EditItemModelComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],
